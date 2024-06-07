@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamsi Krishna Challapalli - Personal Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            animation: fadeInDown 1s ease-out;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2em 0;
+            animation: slideInUp 1s ease-out;
+        }
+        .about, .projects, .contact, .experience, .education, .achievements {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            animation: slideInLeft 1s ease-out;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .project-item, .experience-item, .education-item, .achievement-item {
+            margin-bottom: 15px;
+        }
+        .project-item h3, .experience-item h3, .education-item h3, .achievement-item h3 {
+            margin-bottom: 5px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            animation: zoomIn 1s ease-out;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+        .footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: fadeInUp 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header animate__animated animate__fadeInDown">
+        <h1>Vamsi Krishna Challapalli</h1>
+        <p>Software Developer & Engineer</p>
+        <p>Visakhapatnam, Andhra Pradesh, 531021 · <a href="mailto:challapallivamsi013@gmail.com" style="color: white;">challapallivamsi013@gmail.com</a></p>
+        <p><a href="http://www.linkedin.com/in/vamsi-krishna-challapalli-0a28991b2" style="color: white;">LinkedIn</a></p>
+    </div>
+
+    <div class="container animate__animated animate__slideInUp">
+        <section class="about animate__animated animate__slideInLeft">
+            <h2>About Me</h2>
+            <p>I am a software developer with experience in frontend and backend development, specializing in React.js and Node.js. I have worked on various projects, including e-commerce applications, social media logins, and form validation. My goal is to build efficient and scalable web applications that provide a seamless user experience.</p>
+        </section>
+
+        <section class="education animate__animated animate__slideInLeft">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Kakinada Institute of Engineering Technology, Kakinada</h3>
+                <p>Graduation in Mechanical - 72%, 2017 - 2020</p>
+            </div>
+            <div class="education-item">
+                <h3>Thandra Paparaya Polytechnic, Bobbili</h3>
+                <p>Diploma in Mechanical - 83%, 2014 - 2017</p>
+            </div>
+            <div class="education-item">
+                <h3>Siva Jyothi Vidyalayam, Vizag</h3>
+                <p>Secondary School of Certificate - 87%, 2013 - 2014</p>
+            </div>
+        </section>
+
+        <section class="skills animate__animated animate__slideInLeft">
+            <h2>Skills</h2>
+            <ul>
+                <li>Frontend: HTML, CSS, JavaScript, Bootstrap, React.js (Redux, Hooks), React Native</li>
+                <li>Mobile Development: React Native</li>
+                <li>Azure Services: Blob Storage, Azure App Service (Web App Deployment)</li>
+                <li>Testing: Selenium</li>
+                <li>Backend: Python, JavaScript (Node.js), Express.js, SQL, MongoDB</li>
+                <li>DevOps: Git</li>
+                <li>Additional Skills: Flutter (Basics), Implemented AR scene in React Native using @sceneview/react-native-sceneform library</li>
+            </ul>
+        </section>
+
+        <section class="certifications animate__animated animate__slideInLeft">
+            <h2>Certifications</h2>
+            <p>Tata Consultancy Service (Feb 2022 – May 2023) - Continuous Capacity Building Program Intensive Bootcamp Trainee</p>
+            <ul>
+                <li>Developed a keen understanding of JavaScript fundamentals</li>
+                <li>Able to build static, dynamic, and responsive websites using React.js</li>
+            </ul>
+        </section>
+
+        <section class="projects animate__animated animate__slideInLeft">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Social Media Login</h3>
+                <p>Developed social media login where users can login with websites using social media credentials and update user information.</p>
+                <ul>
+                    <li>Technologies used: React.js, Passport.js</li>
+                    <li>GitHub: <a href="https://github.com/vamsichallapalli/authentication-using-passport-js-" target="_blank">https://github.com/vamsichallapalli/authentication-using-passport-js-</a></li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Form Validation</h3>
+                <p>Developed user form validation page where users give the values in the form inputs and validate according to the user Regex pattern.</p>
+                <ul>
+                    <li>Technologies used: React.js</li>
+                    <li>GitHub: <a href="https://github.com/vamsichallapalli/form-validation" target="_blank">https://github.com/vamsichallapalli/form-validation</a></li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Todos Application</h3>
+                <p>Developed a persistent todo application with CRUD operations to track a list of tasks.</p>
+                <ul>
+                    <li>Technologies used: HTML, CSS, JavaScript, Bootstrap</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>E-Commerce Website</h3>
+                <p>Developed an E-Commerce website where users can browse products, view detailed information, and make purchases.</p>
+                <ul>
+                    <li>Technologies used: HTML, CSS, React.js</li>
+                    <li>GitHub: <a href="https://github.com/vamsichallapalli/Ecommerce-applicatin/tree/main/src" target="_blank">https://github.com/vamsichallapalli/Ecommerce-applicatin/tree/main/src</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="experience animate__animated animate__slideInRight">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Tata Consultancy Service, Hyderabad</h3>
+                <p>Assistant System Engineer (Feb 2022 – May 2023)</p>
+                <ul>
+                    <li>Built Johnson and Johnson product feedback web application</li>
+                    <li>Developed highly responsive user-interface components using React concepts</li>
+                    <li>Collaborated with a team of 5 junior developers</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Mavenberg Innovations</h3>
+                <p>Consultant (June 2023 - Present)</p>
+                <ul>
+                    <li>Ecommerce Application Development: Spearheaded development of a feature-rich ecommerce application using React Native, significantly enhancing user experience and engagement.</li>
+                    <li>Responsive UI Design: Implemented highly responsive user interfaces, leading to a 25% increase in user retention.</li>
+                    <li>Backend Development: Developed and maintained robust backend services using Node.js, ensuring seamless integration with the frontend.</li>
+                    <li>Database Management: Utilized MongoDB for efficient data storage, retrieval, and management, improving data access speed by 30%.</li>
+                    <li>Payment Gateway Integration: Integrated Razorpay payment gateway for secure and seamless transaction processing, enhancing user convenience.</li>
+                    <li>State Management: Implemented Redux for efficient state management, ensuring a scalable and maintainable application architecture.</li>
+                    <li>Technologies Used: React Native, Node.js, MongoDB, Redux.</li>
+                    <li>Ather Service App Project:</li>
+                    <ul>
+                        <li>Key Functionality Development: Displayed various file types (JT, PDF, text, HTML) based on user permissions, enhancing user access control.</li>
+                        <li>TeamCentre Data Integration: Ensured seamless data integration with Ather's team center, improving data consistency and reliability.</li>
+                        <li>Collaborative Approach: Worked closely with the Ather team to understand requirements and deliver customized solutions, reducing project delivery time by 20%.</li>
+                        <li>Technologies Used: Node.js, React, PostgreSQL, pgAdmin.</li>
+                    </ul>
+                    <li>Workhorse Operational Data Management Application:</li>
+                    <ul>
+                        <li>Login System: Implemented secure email and password authentication with two-step OTP verification, enhancing application security.</li>
+                        <li>On-Demand Reporting: Created a precise report generation feature, allowing users to generate customized reports efficiently.</li>
+                        <li>CSV Data Export: Enabled seamless data extraction, improving data sharing capabilities.</li>
+                        <li>Version Control and Column Configuration: Managed data records and allowed customization, providing flexible data management options.</li>
+                        <li>Scheduling Automation: Automated periodic data updates, ensuring data accuracy and timeliness.</li>
+                        <li>BOM Extraction and QAD Integration: Developed BOM retrieval and QAD system data sending options, streamlining operational workflows.</li>
+                        <li>Technologies Used: Node.js, React, PostgreSQL, pgAdmin.</li>
+                    </ul>
+                </ul>
+            </div>
+        </section>
+
+        <section class="achievements animate__animated animate__slideInRight">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Basic SQL and JavaScript certifications from HackerRank</li>
+                <li>Won Acer laptop in college yearly quiz competition</li>
+            </ul>
+        </section>
+
+        <section class="contact animate__animated animate__slideInRight">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+                <label for="message">Message</label>
+                <textarea id="message
+                " name="message" placeholder="Write something.." style="height:200px" required></textarea>
+
+                <button type="submit" class="animate__animated animate__zoomIn">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <div class="footer animate__animated animate__fadeInUp">
+        <p>&copy; 2024 Vamsi Krishna Challapalli</p>
+    </div>
+
+</body>
+</html>
+
